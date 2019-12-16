@@ -36,5 +36,6 @@ const validateShopifyWebhook = (request: any): void => {
 
 const publishOrderEvent = async (order: any) => {
     console.log('publishing order');
+    console.log(JSON.stringify(order));
 };
 
